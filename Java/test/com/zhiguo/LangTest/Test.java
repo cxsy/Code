@@ -5,9 +5,6 @@ import java.util.concurrent.atomic.AtomicInteger;
 /**
  * Test
  */
-interface ii {
-}
-
 class B {
     {
         System.out.println("非静态代码块！");

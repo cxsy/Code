@@ -6,16 +6,758 @@
     "configurations": [
         {
             "type": "java",
-            "name": "CodeLens (Launch) - CharacterTest",
+            "name": "Debug (Launch) - Current File",
             "request": "launch",
-            "mainClass": "com.zhiguo.LangTest.CharacterTest",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LFU<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "LFU",
             "projectName": "Java_2b76cc31"
         },
         {
             "type": "java",
-            "name": "Debug (Launch) - Current File",
+            "name": "Debug (Launch)-B<Java_2b76cc31>",
             "request": "launch",
-            "mainClass": "${file}"
+            "mainClass": "other.B",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-EnumTest<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "other.EnumTest",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LambdaMapTest<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "other.LambdaMapTest",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LambdaMappingTest<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "other.LambdaMappingTest",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LambdaTest<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "other.LambdaTest",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LambdaWithPredicateTest<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "other.LambdaWithPredicateTest",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-OuterInnerClassTest<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "other.OuterInnerClassTest",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Singleton<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "other.Singleton",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Test<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "other.Test",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestBufferStream<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "other.TestBufferStream",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestDataStream<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "other.TestDataStream",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestEquals<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "other.TestEquals",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestIO<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "other.TestIO",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestInstance<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "other.TestInstance",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestInterface<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "other.TestInterface",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestObjectIO<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "other.TestObjectIO",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestPrintStream<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "other.TestPrintStream",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestPrintStream2<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "other.TestPrintStream2",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestPrintStream3<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "other.TestPrintStream3",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestToString<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "other.TestToString",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestTransform<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "other.TestTransform",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestTransform2<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "other.TestTransform2",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Cat<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "other.com.zhiguo.Cat",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CallFutureTest<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "other.thread.CallFutureTest",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Demo1<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "other.thread.Demo1",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Demo10<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "other.thread.Demo10",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Demo11<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "other.thread.Demo11",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Demo12<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "other.thread.Demo12",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Demo13<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "other.thread.Demo13",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Demo14<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "other.thread.Demo14",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Demo2<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "other.thread.Demo2",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Demo3<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "other.thread.Demo3",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Demo4<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "other.thread.Demo4",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Demo5<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "other.thread.Demo5",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Demo6<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "other.thread.Demo6",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Demo7<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "other.thread.Demo7",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Demo8<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "other.thread.Demo8",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Demo9<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "other.thread.Demo9",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-JoinTest<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "other.thread.JoinTest",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ProducerConsumer2<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "other.thread.ProducerConsumer2",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Sequence<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "other.thread.Sequence",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TT<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "other.thread.TT",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestDeadLock<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "other.thread.TestDeadLock",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestInterrupt<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "other.thread.TestInterrupt",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestJoin<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "other.thread.TestJoin",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestPriority<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "other.thread.TestPriority",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestSync<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "other.thread.TestSync",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestThread1<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "other.thread.TestThread1",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestThread2<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "other.thread.TestThread2",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestThread3<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "other.thread.TestThread3",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-AbstractClassTest<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "test.com.zhiguo.LangTest.AbstractClassTest",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ArrayListTest<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "test.com.zhiguo.LangTest.ArrayListTest",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BitOperationTest<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "test.com.zhiguo.LangTest.BitOperationTest",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BooleanTest<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "test.com.zhiguo.LangTest.BooleanTest",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BufferedFileIOTest<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "test.com.zhiguo.LangTest.BufferedFileIOTest",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BufferedIOTest<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "test.com.zhiguo.LangTest.BufferedIOTest",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BufferedReaderTest<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "test.com.zhiguo.LangTest.BufferedReaderTest",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CalendarTest<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "test.com.zhiguo.LangTest.CalendarTest",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CharacterTest<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "test.com.zhiguo.LangTest.CharacterTest",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ClassLoaderTest<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "test.com.zhiguo.LangTest.ClassLoaderTest",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ClassLoadingTest<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "test.com.zhiguo.LangTest.ClassLoadingTest",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ClassTest<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "test.com.zhiguo.LangTest.ClassTest",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ComparableTest<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "test.com.zhiguo.LangTest.ComparableTest",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ConcurrentmapTest<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "test.com.zhiguo.LangTest.ConcurrentmapTest",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DataIOTest<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "test.com.zhiguo.LangTest.DataIOTest",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DateTest<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "test.com.zhiguo.LangTest.DateTest",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DeadLoopClassTest<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "test.com.zhiguo.LangTest.DeadLoopClassTest",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DirectMemoryOOMTest<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "test.com.zhiguo.LangTest.DirectMemoryOOMTest",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-EverythingIsTrue<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "test.com.zhiguo.LangTest.EverythingIsTrue",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ExtendTest<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "test.com.zhiguo.LangTest.ExtendTest",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FileIOTest<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "test.com.zhiguo.LangTest.FileIOTest",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FileTest<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "test.com.zhiguo.LangTest.FileTest",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FinallyTest<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "test.com.zhiguo.LangTest.FinallyTest",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-GCFinalizeTest<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "test.com.zhiguo.LangTest.GCFinalizeTest",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-GCTest<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "test.com.zhiguo.LangTest.GCTest",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-GenericParadigmTest<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "test.com.zhiguo.LangTest.GenericParadigmTest",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HashMapTest<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "test.com.zhiguo.LangTest.HashMapTest",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HashTableTest<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "test.com.zhiguo.LangTest.HashTableTest",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HeapDumpOnOutOfMemoryErrorTest<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "test.com.zhiguo.LangTest.HeapDumpOnOutOfMemoryErrorTest",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-IOTest<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "test.com.zhiguo.LangTest.IOTest",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-IntegerTest<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "test.com.zhiguo.LangTest.IntegerTest",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-InterfaceTest<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "test.com.zhiguo.LangTest.InterfaceTest",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LinkedListTest<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "test.com.zhiguo.LangTest.LinkedListTest",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ListTest<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "test.com.zhiguo.LangTest.ListTest",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MathTest<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "test.com.zhiguo.LangTest.MathTest",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MinorGCTest<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "test.com.zhiguo.LangTest.MinorGCTest",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-NumberTest<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "test.com.zhiguo.LangTest.NumberTest",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-OverLoadTest<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "test.com.zhiguo.LangTest.OverLoadTest",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PhantomReferenceTest<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "test.com.zhiguo.LangTest.PhantomReferenceTest",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PrivateMethodInheritTest<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "test.com.zhiguo.LangTest.PrivateMethodInheritTest",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ProtectedTest<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "test.com.zhiguo.LangTest.ProtectedTest",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RandomAccessFileTest<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "test.com.zhiguo.LangTest.RandomAccessFileTest",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RandomTest<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "test.com.zhiguo.LangTest.RandomTest",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ReflectTest<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "test.com.zhiguo.LangTest.ReflectTest",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SoftReferenceQueueTest<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "test.com.zhiguo.LangTest.SoftReferenceQueueTest",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SoftReferenceTest<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "test.com.zhiguo.LangTest.SoftReferenceTest",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-StackOverFlowTest<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "test.com.zhiguo.LangTest.StackOverFlowTest",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-StaticResolution<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "test.com.zhiguo.LangTest.StaticResolution",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-StaticVSRuntimeConstantPoolTest<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "test.com.zhiguo.LangTest.StaticVSRuntimeConstantPoolTest",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-StringTest<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "test.com.zhiguo.LangTest.StringTest",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SychronizedListTest<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "test.com.zhiguo.LangTest.SychronizedListTest",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Test<Java_2b76cc31>(1)",
+            "request": "launch",
+            "mainClass": "test.com.zhiguo.LangTest.Test",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TimeTest<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "test.com.zhiguo.LangTest.TimeTest",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TryCatchTest<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "test.com.zhiguo.LangTest.TryCatchTest",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-VectorTest<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "test.com.zhiguo.LangTest.VectorTest",
+            "projectName": "Java_2b76cc31"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-WeakReferenceTest<Java_2b76cc31>",
+            "request": "launch",
+            "mainClass": "test.com.zhiguo.LangTest.WeakReferenceTest",
+            "projectName": "Java_2b76cc31"
         }
     ]
 }

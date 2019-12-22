@@ -26,14 +26,13 @@ class Solution:
         while p:
             q = p.next
             if q is None:
-                prev.next = p
+                prev.next = prev = p
                 break
             temp = q.next
             prev.next = q
-            q.next = p
-            p.next = None
-            prev = p
+            q.next = prev = p
             p = temp
+        prev.next = None
         return head.next
 
 

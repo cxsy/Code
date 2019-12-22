@@ -11,14 +11,11 @@ public class OuterInnerClassTest {
         // 创建一个Bean3实例bean3
         Bean.Bean3 bean3 = new Bean().new Bean3();
         new Outter().new Inner().print();
-        System.out.println(a);
-    }
-
-    OuterInnerClassTest(int a, int b) {
-    }
-
-    OuterInnerClassTest(int a) {
-        this(a, 0);
+        try {
+            throw new Exception();
+        } catch (Exception e) {
+            // TODO: handle exception
+        }
     }
 
     class Bean1 {
@@ -33,19 +30,17 @@ public class OuterInnerClassTest {
 
 class Outter {
     private int a = 1;
+    private static int b = 1;
 
     class Inner {
         private int a = 2;
 
         public void print() {
-            static class regionalClass {
-
-            }
             int a = 3;
             System.out.println("局部变量：" + a);
             System.out.println("内部类变量：" + this.a);
             // Outter.this = None;
-            System.out.println("外部类变量：" + Outter.this.a);
+            System.out.println("外部类变量：" + Outter.this.b);
         }
     }
 }

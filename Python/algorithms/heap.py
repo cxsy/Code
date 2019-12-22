@@ -1,4 +1,6 @@
 import heapq
-arr = [(2, 0, 0), (1, 1, 1), (-1, 2, 3), (-5, 2, 1)]
+arr = []
 heapq.heapify(arr)
-print(heapq.nlargest(1, arr))
+for num in [2, 1, 3, 6, 2, 43, 2, 1]:
+    heapq.heappush(arr, num)
+print(heapq.heappop(arr))

@@ -4,7 +4,7 @@ package com.zhiguo.LangTest;
  * AbstractClassTest
  */
 
-// 抽象类不能有抽象构造函数和抽象构造方法
+// 抽象类不能有抽象构造方法
 abstract class A {
     abstract public void print();
 

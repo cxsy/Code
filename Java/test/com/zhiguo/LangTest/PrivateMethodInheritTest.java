@@ -21,6 +21,6 @@ public class PrivateMethodInheritTest extends AAA {
     }
 
     public static void main(String[] args) {
-
+        PrivateMethodInheritTest pmit = new PrivateMethodInheritTest();
     }
 }

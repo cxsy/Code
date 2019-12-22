@@ -20,5 +20,6 @@ public class GenericParadigmTest {
         ArrayList<? super M> list1 = new ArrayList();
         list1.add(new M());
         list1.add(new N());
+        Object o = list1.get(0);
     }
 }

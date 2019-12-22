@@ -5,7 +5,7 @@ package com.zhiguo.LangTest;
  */
 public class GCFinalizeTest {
 
-    public static GCFinalizeTest test = new GCFinalizeTest();;
+    public static GCFinalizeTest test;
 
     public void isAlive() {
         System.out.println("I am alive!");
