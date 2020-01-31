@@ -1,48 +1,48 @@
 class Node:
-    def __init__(self, val):
+    def __init__(self, key, val):
+        self.key = key
         self.val = val
-        self.prev = None
-        self.next = None
+        self.prev = self.next = None
 
 
-class LRU:
-    def __init__(self, capacity):
+class LRUCache:
+    def __init__(self, capacity: int):
+        self.dummy = self.tail = Node(0, 0)
+        self.dic = dict()
         self.capacity = capacity
-        self.tail = self.head = Node(-1)
-        self.dic = {}
 
-    def push(self, val):
-        if val in self.dic:
-            self.remove(self.dic[val])
-        elif len(self.dic) == self.capacity:
-            self.remove(self.head.next)
-        self.tail.next = Node(val)
-        self.tail.next.prev = self.tail
+    def moveToTail(self, key):
+        if self.dic[key] == self.tail: return
+        self.dic[key].prev.next = self.dic[key].next
+        self.dic[key].next.prev = self.dic[key].prev
+        self.dic[key].prev = self.tail
+        self.tail.next = self.tail = self.dic[key]
+
+    def tryDeleteHead(self):
+        if len(self.dic) < self.capacity: return
+        dt = self.dummy.next
+        self.dic.pop(dt.key)
+        self.dummy.next = dt.next
+        if self.dummy.next is None: return
+        self.dummy.next.prev = self.dummy
+
+    def createAtEnd(self, key, value):
+        self.tail.next = self.dic[key] = Node(key, value)
+        self.dic[key].prev = self.tail
         self.tail = self.tail.next
-        self.dic[val] = self.tail
 
-    def remove(self, node):
-        if node == self.tail:
-            self.tail = self.tail.prev
-            self.tail.next = None
-        elif node == self.head.next:
-            self.head.next = self.head.next.next
-            self.head.next.prev = self.head
+    def get(self, key: int) -> int:
+        if key not in self.dic: return -1
+        self.moveToTail(key)
+        return self.tail.val
+
+    def put(self, key: int, value: int) -> None:
+        if key not in self.dic:
+            self.tryDeleteHead()
+            self.createAtEnd(key, value)
         else:
-            node.prev.next = node.next
-            node.next.prev = node.prev
-        self.dic.pop(node.val)
-
-    def show(self):
-        cur = self.head.next
-        while cur:
-            print(cur.val, end=' ')
-            cur = cur.next
-        print()
-
+            self.moveToTail(key)
+            self.tail.val = value
 
 if __name__ == '__main__':
-    lru = LRU(3)
-    for i in [1, 1, 1, 2, 2, 1, 1, 3, 3, 3]:
-        lru.push(i)
-    lru.show()
+    lru = LRUCache(3)

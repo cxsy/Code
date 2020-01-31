@@ -3,16 +3,23 @@ class LFU:
         import heapq
         self.capacity = capacity
         self.dic = {}
+        self.pq = []
+        heapq.heapify(self.pq)
 
     def push(self, val):
+        import heapq
         if val not in self.dic:
             if len(self.dic) == self.capacity:
                 self.pop()
             self.dic[val] = 0
         self.dic[val] += 1
+        heapq.heappush(self.pq, (self.dic[val], val))
 
     def pop(self):
-        val = sorted(self.dic.items(), key=lambda x: x[1])[0][0]
+        import heapq
+        cnt, val = heapq.heappop(self.pq)
+        while cnt < self.dic[val]:
+            cnt, val = heapq.heappop(self.pq)
         self.dic.pop(val)
 
     def show(self):

@@ -15,7 +15,7 @@ class Node:
 class Solution:
     def solve(self, li):
         slow = li.next
-        if slow is None or slow.next is None:
+        if slow is None:
             return -1
         fast = slow.next
         while slow != fast:
