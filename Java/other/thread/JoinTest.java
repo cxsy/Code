@@ -1,9 +1,15 @@
+import java.util.LinkedList;
+import java.util.List;
+
 /**
  * JoinTest
  */
 public class JoinTest {
 
     public static void main(String[] args) {
+        LinkedList<Integer> list = new LinkedList<>();
+        ReentrantLockTest
+        list.poll()
         Thread t = new Thread(new Runnable() {
 
             @Override

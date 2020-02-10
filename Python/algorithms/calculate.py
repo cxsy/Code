@@ -1,12 +1,12 @@
 class Solution:
+    def calc(self, x, y, op):
+        if op == '+': return x + y
+        if op == '-': return x - y
+        if op == '*': return x * y
+        if op == '/': return x // y if x * y >= 0 else -(abs(x) // abs(y))
+
     def calculate1(self, s: str) -> int:
         # return eval(s.replace('/', '//'))
-
-        def calc(x, y, op):
-            if op == '+': return x + y
-            if op == '-': return x - y
-            if op == '*': return x * y
-            if op == '/': return x // y if x * y >= 0 else -(abs(x) // abs(y))
 
         def findPaired(i, expr):
             cnt = 1

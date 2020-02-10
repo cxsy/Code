@@ -17,19 +17,19 @@ class SegmentTree:
     def renew(self, tn):
         self.T[tn].cur = self.T[tn << 1].cur + self.T[tn << 1 | 1].cur
 
-    def add(self, index, val):
-        self.__add_helper(1, 0, self.n, index, val)
+    # def add(self, index, val):
+    #     self.__add_helper(1, 0, self.n, index, val)
 
-    def __add_helper(self, tn, tl, tr, index, val):
-        if tl + 1 == tr:
-            self.T[tn].cur += val
-        else:
-            tm = (tl + tr) >> 1
-            if index < tm:
-                self.__add_helper(tn << 1, tl, tm, index, val)
-            else:
-                self.__add_helper(tn << 1 | 1, tm, tr, index, val)
-            self.renew(tn)
+    # def __add_helper(self, tn, tl, tr, index, val):
+    #     if tl + 1 == tr:
+    #         self.T[tn].cur += val
+    #     else:
+    #         tm = (tl + tr) >> 1
+    #         if index < tm:
+    #             self.__add_helper(tn << 1, tl, tm, index, val)
+    #         else:
+    #             self.__add_helper(tn << 1 | 1, tm, tr, index, val)
+    #         self.renew(tn)
 
     def add_range(self, l, r, val):
         self.__add_range_helper(1, 0, self.n, l, r, val)
