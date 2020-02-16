@@ -10,7 +10,6 @@ def merge_sort(arr, l, r):
 
 
 def merge(arr, l, arr1, arr2):
-    tmp = []
     i = l
     i1 = i2 = 0
     rp = 0

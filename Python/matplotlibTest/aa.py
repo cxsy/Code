@@ -1,3 +1,4 @@
+#%%
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -17,3 +18,6 @@ plt.plot(x2, y2, label='T2')
 plt.legend()
 
 plt.show()
+
+
+# %%
