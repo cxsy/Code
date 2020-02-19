@@ -16,4 +16,4 @@ def KMP(s, t):
 
 
 if __name__ == "__main__":
-    print(KMP('abcd', 'vabcd'))
+    print(KMP('a', 'aa'))

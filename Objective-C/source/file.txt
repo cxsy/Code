@@ -1,0 +1,8 @@
+(
+    I,
+    seem,
+    to,
+    be,
+    a,
+    verb
+)

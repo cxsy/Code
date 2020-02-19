@@ -1,5 +1,4 @@
-CarParts-Split: Tire.m Tire.h /usr/include/GNUstep/Cocoa/Cocoa.h \
- /usr/include/GNUstep/Foundation/Foundation.h \
+main: main.m /usr/include/GNUstep/Foundation/Foundation.h \
  /usr/include/GNUstep/GNUstepBase/GSVersionMacros.h \
  /usr/include/GNUstep/GNUstepBase/GSConfig.h \
  /usr/include/GNUstep/Foundation/FoundationErrors.h \
@@ -142,8 +141,8 @@ CarParts-Split: Tire.m Tire.h /usr/include/GNUstep/Cocoa/Cocoa.h \
  /usr/include/GNUstep/Foundation/NSXMLDTD.h \
  /usr/include/GNUstep/Foundation/NSXMLDTDNode.h \
  /usr/include/GNUstep/Foundation/NSXMLElement.h \
- /usr/include/GNUstep/Foundation/NSXMLParser.h \
- /usr/include/GNUstep/AppKit/AppKit.h \
+ /usr/include/GNUstep/Foundation/NSXMLParser.h Thingie.h \
+ /usr/include/GNUstep/Cocoa/Cocoa.h /usr/include/GNUstep/AppKit/AppKit.h \
  /usr/include/GNUstep/GNUstepGUI/GSVersion.h \
  /usr/include/GNUstep/AppKit/NSGraphics.h \
  /usr/include/GNUstep/AppKit/NSGraphicsContext.h \
@@ -312,10 +311,6 @@ CarParts-Split: Tire.m Tire.h /usr/include/GNUstep/Cocoa/Cocoa.h \
  /usr/include/GNUstep/AppKit/NSWindowController.h \
  /usr/include/GNUstep/AppKit/PSOperators.h \
  /usr/include/GNUstep/AppKit/DPSOperators.h
-
-Tire.h:
-
-/usr/include/GNUstep/Cocoa/Cocoa.h:
 
 /usr/include/GNUstep/Foundation/Foundation.h:
 
@@ -604,6 +599,10 @@ Tire.h:
 /usr/include/GNUstep/Foundation/NSXMLElement.h:
 
 /usr/include/GNUstep/Foundation/NSXMLParser.h:
+
+Thingie.h:
+
+/usr/include/GNUstep/Cocoa/Cocoa.h:
 
 /usr/include/GNUstep/AppKit/AppKit.h:
 

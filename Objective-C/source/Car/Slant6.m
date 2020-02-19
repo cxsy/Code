@@ -2,8 +2,8 @@
 
 @implementation Slant6
 
-- (NSString *) description
-{
-    return (@"I am a slant-6. VROOOM!");
-}
+// - (NSString *) description
+// {
+//     return (@"I am a slant-6. VROOOM!");
+// }
 @end

@@ -1,4 +1,5 @@
-CarParts-Split: Tire.m Tire.h /usr/include/GNUstep/Cocoa/Cocoa.h \
+../bin/CategoryTest: NSString+NumberConvenience.m \
+ NSString+NumberConvenience.h /usr/include/GNUstep/Cocoa/Cocoa.h \
  /usr/include/GNUstep/Foundation/Foundation.h \
  /usr/include/GNUstep/GNUstepBase/GSVersionMacros.h \
  /usr/include/GNUstep/GNUstepBase/GSConfig.h \
@@ -313,7 +314,7 @@ CarParts-Split: Tire.m Tire.h /usr/include/GNUstep/Cocoa/Cocoa.h \
  /usr/include/GNUstep/AppKit/PSOperators.h \
  /usr/include/GNUstep/AppKit/DPSOperators.h
 
-Tire.h:
+NSString+NumberConvenience.h:
 
 /usr/include/GNUstep/Cocoa/Cocoa.h:
 
