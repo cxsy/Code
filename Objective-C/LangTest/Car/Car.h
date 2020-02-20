@@ -11,7 +11,8 @@
     int modelYear;
     int numberOfDoors;
     Engine *engine;
-    Tire *tires[4];
+    NSMutableArray *tires;
+    // Tire *tires[4];
 }
 @property (readwrite, copy) NSString *name;
 @property (readwrite, retain) Engine *engine; 
@@ -19,7 +20,8 @@
 @property (readwrite, copy) NSString *model;
 @property (readwrite) int modelYear;
 @property (readwrite) int numberOfDoors;
-- (Tire *) tireAtIndex: (int) index;
-- (void) setTire: (Tire *) tire atIndex: (int) index;
+// - (Tire *) tireAtIndex: (int) index;
+// - (void) setTire: (Tire *) tire atIndex: (int) index;
+- (void) addTire: (Tire *) tire;
 - (void) print;
 @end

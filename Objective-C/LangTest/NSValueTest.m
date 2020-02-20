@@ -8,7 +8,7 @@ int main (int argc, const char *argv[])
     NSValue *value = [NSValue valueWithBytes: &rect objCType: @encode(NSRect)];
     NSRect p;
     [value getValue: &p];
-    [p Height];
+    // [p Height];
     NSValue *value1 = [NSValue valueWithRect: rect];
     [pool drain];
     return (0);

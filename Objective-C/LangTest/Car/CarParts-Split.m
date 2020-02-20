@@ -8,8 +8,10 @@ int main (int argc, const char *argv[])
     NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
     Car *car = [[[Car alloc] init] autorelease];
 
-    NSArray *pressures = [car valueForKeyPath: @"tires.pressure"];
-    NSLog (@"pressures %@", pressures);
+    NSLog (@"A car has %@ tires", [car valueForKeyPath: @"tires.@count"]);
+    NSLog (@"A car has tire pressure of %@ in average", [car valueForKeyPath: @"tires.@avg.pressure"]);
+    // NSArray *pressures = [car valueForKeyPath: @"tires.pressure"];
+    // NSLog (@"pressures %@", pressures);
     NSLog (@"%@", car.engine);
     [car setValue: [NSNumber numberWithInt: 155] forKeyPath: @"engine.horsepower"];
     NSLog (@"%@", car.engine);
@@ -36,7 +38,7 @@ int main (int argc, const char *argv[])
     // {
     //     NSLog (@"yowza!");
     // }
-    // [car print];
+    [car print];
     // [car setEngine: [Engine new]];
     // [car print];
     Car *carCopy = [car copy];
